@@ -7,6 +7,6 @@ SupervisedClassifier.ipynb: permite entrenar de manera supervisada las redes neu
 
 SimSiamTrainer.ipynb: permite entrenar los extractores de características de las redes convolucionales nombradas con SimSiam. Utiliza la clase de SimSiam adaptada. Podremos indicar el batch size, número de épocas, learning rate base, momentum y weight decay. Tambíen realiza como validación una clasificación kNN con k=1.
 
-TSNEFeatures.ipynb: permite proyectar en 2D en el plano mediante el algoritmo t-SNE, implementado en la librería de Python sklearn, las salidas de los encoders preentrenados con SimSiam.
+TSNE_Features.ipynb: permite proyectar en 2D en el plano mediante el algoritmo t-SNE, implementado en la librería de Python sklearn, las salidas de los encoders preentrenados con SimSiam.
 
 SimSiamClassifier.ipynb: permite realizar el entrenamiento de los clasificadores auto-supervisados. Para pode realizar la clasificación, tendremos que indicar al programa el path del modelo preentrenado con SimSiam. Permite al usuario modificar el batch size, número de épocas, base de datos, learning rate, momentum y weight decay.
